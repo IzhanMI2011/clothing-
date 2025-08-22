@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("t\ shirt2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 233, 255, 0.3);
+}
+
+.navbar {
+    display: block;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    border-color: #000000;
+
+}
+
+
+
+.navbar a {
+    padding-right: 70px;
+    color: #B2B0E8;
+    text-decoration: none;
+    text-decoration: underline;
+
+
+}
+
+
+
+.logo {
+    color: #1A2A80;
+    font-size: 30px;
+
+}
+
+.navbar input {
+    color: aqua;
+    background-color: transparent;
+    width: 200px;
+    border-radius: 50px;
+    height: 30px;
+
+}
+
+.navbar button {
+    display: inline;
+    background-color: transparent;
+    width: 70px;
+    height: 30px;
+    color: #7A85C1;
+    transition-delay: 0s;
+    transition: 1s;
+
+}
+
+.navbar button:hover {
+    background-color: rgb(36, 61, 36);
+    color: #B2B0E8;
+    font-size: 20px;
+    width: 100px;
+}
+
+.tab {
+    width: 1230px;
+    height: 310px;
+    color: #000000;
+    font: 900;
+    border: 5px solid #000000;
+    text-align: center;
+    font-size: 80px;
+    border-radius: 30px;
+    font-weight: 700;
+    animation-name: tab;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes tab {
+    from {
+        font-size: 80px;
+    }
+
+    to {
+        font-size: 90px;
+    }
+
+}
+
+
+
+.button {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 380px;
+    border-radius: 30px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: bisque;
+
+
+    animation-name: button;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes button {
+    from {
+        transform: translate(-100px);
+    }
+
+    to {
+        transform: translate(100px);
+    }
+}
